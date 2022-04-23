@@ -1,11 +1,12 @@
 programa
 {
-	funcao inicio()
+	
+funcao inicio()
 	{
 		real num
 		inteiro cont_neg = 0
 	
-		para(inteiro i=1; i<=10; i+=1){
+		para(inteiro i=1; i<=10; i+=1){
 			escreva("\nDigite um número positivo ou negativo:\n")
 			leia(num)
 			se (num<0) {
